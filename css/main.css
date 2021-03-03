@@ -1,17 +1,19 @@
-main {
+.container {
     display: inline-block;
     width: 800px;
     background-color: red;
     margin-left: calc((100% - 800px) / 2);
 }
 
-main > div {
-    width: 40px; 
+.left-column {
+    width: 40%; 
     float: left;
     background-color: blue;
 }
 
-main > div:last-of-type {
+.right-column {
     width: 60%;
-    height: 200px;
+width: 60%;
+background-color: yellow;
+
 }
