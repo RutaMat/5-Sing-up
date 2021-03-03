@@ -1,10 +1,17 @@
-main{
+main {
     display: inline-block;
     width: 800px;
-    background-attachment: red;
+    background-color: red;
     margin-left: calc((100% - 800px) / 2);
 }
 
-main> div{
-    display: inline-block;
+main > div {
+    width: 40px; 
+    float: left;
+    background-color: blue;
+}
+
+main > div:last-of-type {
+    width: 60%;
+    height: 200px;
 }
