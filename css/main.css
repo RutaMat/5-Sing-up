@@ -62,11 +62,28 @@ width: 60%;
 float: right;
 padding: 60px;
 background-color: #fff;
+position: relative;
 
 }
 .close {
-    
+ display: inline-block;   
+ width: 60px;
+ height: 60px;
+ font-size: 30px;
+ text-align: center;
+ line-height: 57px;
+ position: absolute;
+ top: 0px;
+ right: 0px;
+
 }
+.close:hover {
+background-color: lightcyan;
+cursor: pointer;
+
+}
+
+
 form {
     display: inline-block;
     width: 100%;
